@@ -452,8 +452,9 @@ body {
 
 @media (min-width: 900px) {
   .main-container {
-    width: calc(100% - 102px);
-    height: calc(100% - 102px);
+    min-width: calc(100% - 102px);
+    min-height: calc(100% - 102px);
+    display: flex;
     justify-content: center;
     align-items: center;
 
