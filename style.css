@@ -16,7 +16,8 @@ body {
 .main-container {
   border-radius: 20px;
   position: relative;
-
+  min-width: calc(100% - 102px);
+  min-height: calc(100% - 102px);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -456,6 +457,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     & .header-container {
       justify-content: space-between;
